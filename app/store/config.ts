@@ -73,12 +73,13 @@ export function limitNumber(
   return Math.min(max, Math.max(min, x));
 }
 
+
 export function limitModel(name: string) {
   const allModels = useAppConfig.getState().models;
-  const matchedModel = allModels.find((m) => m.name === name && m.available);
-  return matchedModel ? name : name;
+  return allModels.some((m) => m.name === name && m.available)
+    ? name
+    : "gpt-3.5-turbo";
 }
-
 export const ModalConfigValidator = {
   model(x: string) {
     return limitModel(x) as ModelType;
