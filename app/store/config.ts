@@ -156,7 +156,7 @@ export const useAppConfig = create<ChatConfigStore>()(
         state.hideBuiltinMasks = false;
 
         return state;
-      },
-    }
-  )
+   },
+    },
+  ),
 );
