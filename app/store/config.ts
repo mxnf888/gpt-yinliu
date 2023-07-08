@@ -37,7 +37,7 @@ export const DEFAULT_CONFIG = {
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
-    model: "gpt-3.5-turbo" as ModelType,
+    model: "gpt-3.5-turbo-16k" as ModelType,
     temperature: 0.5,
     top_p: 1,
     max_tokens: 2000,
@@ -77,7 +77,7 @@ export function limitModel(name: string) {
   const allModels = useAppConfig.getState().models;
   return allModels.some((m) => m.name === name && m.available)
     ? name
-    : "gpt-3.5-turbo";
+    : "gpt-3.5-turbo-16k";
 }
 
 export const ModalConfigValidator = {
@@ -121,7 +121,7 @@ export const useAppConfig = create<ChatConfigStore>()(
         const modelMap: Record<string, LLMModel> = {};
 
         for (const model of oldModels) {
-          model.available = false;
+          model.available = true;
           modelMap[model.name] = model;
         }
 
