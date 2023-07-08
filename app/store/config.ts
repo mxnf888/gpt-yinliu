@@ -4,12 +4,6 @@ import { LLMModel } from "../client/api";
 import { getClientConfig } from "../config/client";
 import { DEFAULT_INPUT_TEMPLATE, DEFAULT_MODELS, StoreKey } from "../constant";
 
-// 将所有模型的 available 属性设置为 true
-const DEFAULT_MODELS_WITH_AVAILABILITY = DEFAULT_MODELS.map((model) => ({
-  ...model,
-  available: true,
-}));
-
 export type ModelType = (typeof DEFAULT_MODELS)[number]["name"];
 
 export enum SubmitKey {
@@ -40,7 +34,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
 
-  models: DEFAULT_MODELS_WITH_AVAILABILITY as any as LLMModel[],
+  models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
     model: "gpt-3.5-turbo" as ModelType,
@@ -55,8 +49,6 @@ export const DEFAULT_CONFIG = {
     template: DEFAULT_INPUT_TEMPLATE,
   },
 };
-
-// 其他代码...
 
 export type ChatConfig = typeof DEFAULT_CONFIG;
 
