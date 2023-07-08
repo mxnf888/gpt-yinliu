@@ -29,10 +29,10 @@ export const DEFAULT_CONFIG = {
   sendPreviewBubble: true,
   sidebarWidth: 300,
 
-  disablePromptHint: true,
+  disablePromptHint: false,
 
-  dontShowMaskSplashScreen: true, // dont show splash screen when create chat
-  hideBuiltinMasks: true, // dont add builtin masks
+  dontShowMaskSplashScreen: false, // dont show splash screen when create chat
+  hideBuiltinMasks: false, // dont add builtin masks
 
   models: DEFAULT_MODELS as any as LLMModel[],
 
