@@ -10,7 +10,7 @@ export enum SubmitKey {
   Enter = "Enter",
   CtrlEnter = "Ctrl + Enter",
   ShiftEnter = "Shift + Enter",
-  AltEnter = "Alt + Enter",
+  AltEnter = "Alt + Enter"
   MetaEnter = "Meta + Enter",
 }
 
@@ -76,7 +76,7 @@ export function limitNumber(
 export function limitModel(name: string) {
   const allModels = useAppConfig.getState().models;
   const matchedModel = allModels.find((m) => m.name === name && m.available);
-  return matchedModel ? name : "gpt-3.5-turbo";
+  return matchedModel ? name : name;
 }
 
 export const ModalConfigValidator = {
