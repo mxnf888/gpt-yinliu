@@ -31,8 +31,8 @@ export const DEFAULT_CONFIG = {
 
   disablePromptHint: false,
 
-  dontShowMaskSplashScreen: false, // dont show splash screen when create chat
-  hideBuiltinMasks: false, // dont add builtin masks
+  dontShowMaskSplashScreen: true, // dont show splash screen when create chat
+  hideBuiltinMasks: true, // dont add builtin masks
 
   models: DEFAULT_MODELS as any as LLMModel[],
 
@@ -121,7 +121,7 @@ export const useAppConfig = create<ChatConfigStore>()(
         const modelMap: Record<string, LLMModel> = {};
 
         for (const model of oldModels) {
-          model.available = false;
+          model.available = true;
           modelMap[model.name] = model;
         }
 
