@@ -4,6 +4,12 @@ import { LLMModel } from "../client/api";
 import { getClientConfig } from "../config/client";
 import { DEFAULT_INPUT_TEMPLATE, DEFAULT_MODELS, StoreKey } from "../constant";
 
+// 将所有模型的 available 属性设置为 true
+const DEFAULT_MODELS_WITH_AVAILABILITY = DEFAULT_MODELS.map((model) => ({
+  ...model,
+  available: true,
+}));
+
 export type ModelType = (typeof DEFAULT_MODELS)[number]["name"];
 
 export enum SubmitKey {
@@ -33,8 +39,6 @@ export const DEFAULT_CONFIG = {
 
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
-
-  models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
     model: "gpt-3.5-turbo" as ModelType,
@@ -75,8 +79,9 @@ export function limitNumber(
 
 export function limitModel(name: string) {
   const allModels = useAppConfig.getState().models;
-  const matchedModel = allModels.find((m) => m.name === name && m.available);
-  return matchedModel ? name : "gpt-3.5-turbo";
+  return allModels.some((m) => m.name === name && m.available)
+    ? name
+    : "gpt-3.5-turbo";
 }
 
 export const ModalConfigValidator = {
@@ -120,7 +125,7 @@ export const useAppConfig = create<ChatConfigStore>()(
         const modelMap: Record<string, LLMModel> = {};
 
         for (const model of oldModels) {
-          model.available = true;
+          model.available = false;
           modelMap[model.name] = model;
         }
 
@@ -152,6 +157,6 @@ export const useAppConfig = create<ChatConfigStore>()(
 
         return state;
       },
-    },
-  ),
+    }
+  )
 );
