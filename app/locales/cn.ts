@@ -169,6 +169,7 @@ const cn = {
       Builtin: {
         Title: "隐藏内置面具",
         SubTitle: "在所有面具列表中隐藏内置面具",
+        SubTitle: "在所有面具列表中隐藏内置面具",
       },
     },
     Prompt: {
