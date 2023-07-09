@@ -1,11 +1,15 @@
-export const OWNER = "Yidadaa";
-export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
-export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
+export const OWNER = "0";
+export const REPO = "0";
+export const REPO_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5aCYpdHPbj2y7Y37utr8sNzS8Vv2RHrf&authKey=HaaXnUtMpG3vvZ6rFupPDjDXEdKrU5LMyLGhtBfVF%2BtYVU2a%2FtRNPYXZvMTXMARo&noverify=0&group_code=854495421
+`;
+export const ISSUE_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5aCYpdHPbj2y7Y37utr8sNzS8Vv2RHrf&authKey=HaaXnUtMpG3vvZ6rFupPDjDXEdKrU5LMyLGhtBfVF%2BtYVU2a%2FtRNPYXZvMTXMARo&noverify=0&group_code=854495421
+`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
-export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
-export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
+export const FETCH_COMMIT_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5aCYpdHPbj2y7Y37utr8sNzS8Vv2RHrf&authKey=HaaXnUtMpG3vvZ6rFupPDjDXEdKrU5LMyLGhtBfVF%2BtYVU2a%2FtRNPYXZvMTXMARo&noverify=0&group_code=854495421
+`;
+export const FETCH_TAG_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5aCYpdHPbj2y7Y37utr8sNzS8Vv2RHrf&authKey=HaaXnUtMpG3vvZ6rFupPDjDXEdKrU5LMyLGhtBfVF%2BtYVU2a%2FtRNPYXZvMTXMARo&noverify=0&group_code=854495421
+`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 export const DEFAULT_API_HOST = "https://chatgpt1.nextweb.fun/api/proxy";
 
