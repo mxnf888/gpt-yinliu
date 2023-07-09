@@ -1,10 +1,10 @@
 import { SubmitKey } from "../store/config";
 
 const cn = {
-  WIP: "感谢支持",
+  WIP: "  WIP: "维护不易，感谢支持",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "## 🤖欢迎使用\n\**您还未授权，填入授权码后可永久使用本网址，\n\授权码用户可以无限制的免费使用GPT-3.5和[GPT-4联网版](https://gpt4.mxnf.one)**\n\### ⭐获取地址\n\**关注公众号领取免费授权码：[屌毛资本情报站](http://img.iswl.tk/123/xc4.jpg)\n\永久授权码/GPT手工账号：[购买地址](http://km.mxnf.one)**",
   },
   Auth: {
     Title: "需要密码",
@@ -246,7 +246,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "## 🤖欢迎使用\n\**近期，用户访问量激增，可能导致域名被污染、打不开情况。可进入官方[社群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IVySclMptpOHK7cj5Es78LyjeSS6i2OQ&authKey=ne%2FxnDUEpr3lNWpxZW1rqrpisqIXRg7yAhZej4UkKLbGQdQfwQn%2BLBXfho6iPgkG&noverify=0&group_code=467599493)或下载[APP](https://wwat.lanzoul.com/b0rhs7cb)**\n\### ⭐特别说明\n\**免费体验[GPT-4联网版](https://gpt4.mxnf.one)\n\AI工具大全：[ai.mxnf.one](http://ai.mxnf.one)\n\最新地址发布页：[mxnf.tk](http://mxnf.one/app.html)**",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
