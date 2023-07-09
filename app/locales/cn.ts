@@ -4,7 +4,7 @@ const cn = {
   WIP: "维护不易，感谢支持",
   Error: {
     Unauthorized:
-      "## 🤖欢迎使用\n\**您还未授权，填入授权码后可永久使用本网址，\n\授权码用户可以无限制的免费使用GPT-3.5和[GPT-4联网版](https://gpt4.mxnf.one)**\n\### ⭐获取地址\n\**关注公众号领取免费授权码：[屌毛资本情报站](http://img.iswl.tk/123/xc4.jpg)\n\永久授权码/GPT手工账号：[购买地址](http://km.mxnf.one)**",
+      "## 🤖欢迎使用\n\**您还未授权，填入授权码后可永久使用本网址，\n\授权码用户可以无限制的免费使用GPT-3.5和[GPT-4联网版](https://gpt4.mxnf.one)**\n\### ⭐获取地址\n\**关注公众号领取免费授权码：[屌毛资本情报站](http://img.iswl.tk/123/xc4.jpg)\n\长期授权码/GPT手工账号：[购买地址](http://km.mxnf.one)**",
   },
   Auth: {
     Title: "需要密码",
