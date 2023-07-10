@@ -144,7 +144,7 @@ export function SideBar(props: { className?: string }) {
     showToast(Locale.WIP);
 
     // 跳转到百度
-    window.location.href = "http://img.iswl.tk/123/xc.html";
+    window.location.href = "https://wwat.lanzoul.com/itcSR0wv4udg";
   }}
   shadow
 />
