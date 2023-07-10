@@ -270,10 +270,10 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "购买",
+    Name: "下载APP",
   },
   Mask: {
-    Name: "面具",
+    Name: "预设场景",
     Page: {
       Title: "预设角色面具",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
