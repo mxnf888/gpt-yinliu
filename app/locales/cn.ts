@@ -246,8 +246,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "## 🤖欢迎使用
-**近期，用户访问量激增可能导致域名被污染、打不开情况。可进入官方[社群](http://qm.qq.com/cgi-bin/qm/qr?量激增，_wv=1027&k=yAcZIAyUt-GCYQZg-nJKhUigRAN0rrii&authKey=66sjJPRSFQRmNGbWT%2FMk5NR6hdzrSaE%2FxxYaw0Gqh0K3qwEAayN0KQ5X6O4qk0%2BI&noverify=0&group_code=836763958)防患于未然，无法使用及时联系站长**\n\## 更新内容\n\**1.优化功能界面\n\2.更新预设场景\n\3.新增联网功能**",
+    BotHello: "## 🤖欢迎使用\n\**近期，用户访问量激增可能导致域名被污染、打不开情况。可进入官方[社群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=yAcZIAyUt-GCYQZg-nJKhUigRAN0rrii&authKey=66sjJPRSFQRmNGbWT%2FMk5NR6hdzrSaE%2FxxYaw0Gqh0K3qwEAayN0KQ5X6O4qk0%2BI&noverify=0&group_code=836763958)防患于未然，无法使用及时联系站长**\n\## 更新内容\n\**1.优化功能界面\n\2.更新预设场景\n\3.新增联网功能**",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
