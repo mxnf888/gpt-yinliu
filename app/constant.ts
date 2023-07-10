@@ -1,15 +1,11 @@
 export const OWNER = "0";
 export const REPO = "0";
-export const REPO_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5aCYpdHPbj2y7Y37utr8sNzS8Vv2RHrf&authKey=HaaXnUtMpG3vvZ6rFupPDjDXEdKrU5LMyLGhtBfVF%2BtYVU2a%2FtRNPYXZvMTXMARo&noverify=0&group_code=854495421
-`;
-export const ISSUE_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5aCYpdHPbj2y7Y37utr8sNzS8Vv2RHrf&authKey=HaaXnUtMpG3vvZ6rFupPDjDXEdKrU5LMyLGhtBfVF%2BtYVU2a%2FtRNPYXZvMTXMARo&noverify=0&group_code=854495421
-`;
+export const REPO_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pqn_6ZFzXAppBV21f1Ij3bUsnUXsr13k&authKey=UUMvGmbA03t9o4AhRUVAD1CNrEH2CCIR4gLmK%2FzQJ2m1XqR%2BgttfPqJTJqoUuHPe&noverify=0&group_code=836763958`;
+export const ISSUE_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pqn_6ZFzXAppBV21f1Ij3bUsnUXsr13k&authKey=UUMvGmbA03t9o4AhRUVAD1CNrEH2CCIR4gLmK%2FzQJ2m1XqR%2BgttfPqJTJqoUuHPe&noverify=0&group_code=836763958`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
-export const FETCH_COMMIT_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5aCYpdHPbj2y7Y37utr8sNzS8Vv2RHrf&authKey=HaaXnUtMpG3vvZ6rFupPDjDXEdKrU5LMyLGhtBfVF%2BtYVU2a%2FtRNPYXZvMTXMARo&noverify=0&group_code=854495421
-`;
-export const FETCH_TAG_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5aCYpdHPbj2y7Y37utr8sNzS8Vv2RHrf&authKey=HaaXnUtMpG3vvZ6rFupPDjDXEdKrU5LMyLGhtBfVF%2BtYVU2a%2FtRNPYXZvMTXMARo&noverify=0&group_code=854495421
-`;
+export const FETCH_COMMIT_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pqn_6ZFzXAppBV21f1Ij3bUsnUXsr13k&authKey=UUMvGmbA03t9o4AhRUVAD1CNrEH2CCIR4gLmK%2FzQJ2m1XqR%2BgttfPqJTJqoUuHPe&noverify=0&group_code=836763958`;
+export const FETCH_TAG_URL = `http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pqn_6ZFzXAppBV21f1Ij3bUsnUXsr13k&authKey=UUMvGmbA03t9o4AhRUVAD1CNrEH2CCIR4gLmK%2FzQJ2m1XqR%2BgttfPqJTJqoUuHPe&noverify=0&group_code=836763958`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 export const DEFAULT_API_HOST = "https://chatgpt1.nextweb.fun/api/proxy";
 
