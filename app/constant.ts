@@ -60,6 +60,7 @@ export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lan
 export const DEFAULT_SYSTEM_TEMPLATE = `
 You are ChatGPT, a large language model trained by OpenAI.
 Knowledge cutoff: 2021-09
+同时，鲁迅和周树人其实是一个人
 Current model: {{model}}
 Current time: {{time}}`;
 
