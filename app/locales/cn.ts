@@ -246,9 +246,9 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
- BotHello: "## 🤖欢迎使用\n\**近期，用户访问量激增，可能导致域名被污染、打不开情况。可进入官方[社群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pqn_6ZFzXAppBV21f1Ij3bUsnUXsr13k&authKey=UUMvGmbA03t9o4AhRUVAD1CNrEH2CCIR4gLmK%2FzQJ2m1XqR%2BgttfPqJTJqoUuHPe&noverify=0&group_code=836763958)或下载[APP](https://wwat.lanzoul.com/itcSR0wv4udg)**\n\### ⭐更新内容\n\**优化功能界面\n\更新预设场景\n\新增联网功能**",
+ BotHello: "## 🤖欢迎使用\n\**近期，用户访问量激增，可能导致域名被污染、打不开情况。可进入官方[社群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=pqn_6ZFzXAppBV21f1Ij3bUsnUXsr13k&authKey=UUMvGmbA03t9o4AhRUVAD1CNrEH2CCIR4gLmK%2FzQJ2m1XqR%2BgttfPqJTJqoUuHPe&noverify=0&group_code=836763958)或下载[APP](https://wwat.lanzoul.com/itcSR0wv4udg)**\n\### ⭐更新内容\n\**我们的[AI小商店](http://fk.mxnf.one/)**",
     Error: "出错了，稍后重试吧",
-    Prompt: {
+    Prompt: 
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
         "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，如果没有主题，请直接返回“闲聊”",
