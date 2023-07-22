@@ -4,7 +4,7 @@ const cn = {
   WIP: "下载APP",
   Error: {
     Unauthorized:
-      "## 🤖您还未授权\n\**网站升级，您可点击前往[公众号](https://wwat.lanzoul.com/b0rhs7cb)领取免费授权码来使用本站![示例图片](https://app.mxnf1.one/1.png)**",
+      "## 🤖您还未授权\n\**网站升级，您可点击前往[公众号](https://app.mxnf1.one/1.png)领取免费授权码来使用本站![示例图片](https://app.mxnf1.one/1.png)**",
   },
   Auth: {
     Title: "需要密码",
