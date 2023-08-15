@@ -1,4 +1,4 @@
-0000000000000000000000000000import { SubmitKey } from "../store/config";
+import { SubmitKey } from "../store/config"; 
 
 const cn = {
   WIP: "下载APP",
