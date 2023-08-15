@@ -1,10 +1,10 @@
-import { SubmitKey } from "../store/config";
+0000000000000000000000000000import { SubmitKey } from "../store/config";
 
 const cn = {
   WIP: "下载APP",
   Error: {
     Unauthorized:
-      "## 🤖您还未授权\n\**网站升级，您可点击前往[公众号](https://share.weiyun.com/L5ppaTQ6)领取免费授权码来使用本站![示例图片](https://app.mxnf1.one/1.png)**",
+      "## 🤖您还未授权\n\**公益网站无法维护，将停用一段时间，在此期间您可使用我们的专业版[gpt6.iswl.tk](https://gpt6.iswl.tk/)**",
   },
   Auth: {
     Title: "需要密码",
